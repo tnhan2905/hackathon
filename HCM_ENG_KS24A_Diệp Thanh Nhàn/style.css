@@ -1,0 +1,107 @@
+.container {
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.nav span {
+    color: black;
+    font-size: 16px;
+}
+.nav-load {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+.content {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+.text {
+    max-width: 60%;
+}
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+.location {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #555;
+}
+
+.location1 {
+    margin-top: 50px;
+}
+.description {
+    margin-top: 10px;
+    color: #555;
+    line-height: 1.5;
+}
+.profile img {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-left: 50px;
+}
+.cuoi {
+    margin-top: 50px;
+    display: flex;
+}
+.cuoi img {
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+}
+.skills-section {
+    text-align: center;
+    margin-top: 50px;
+}
+.skills-section h2 {
+    background-color: #e0e0e0;
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 15px;
+    font-size: 14px;
+}
+.skills-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.skill {
+    text-align: center;
+}
+.skill img {
+    width: 50px;
+    height: 50px;
+}
+.skill p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+}
+@media screen (max-width:768px) {
+    
+}
